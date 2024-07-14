@@ -47,7 +47,7 @@ GOPATH=/usr/share/gocode make
 %endif
 
 %files
-%doc README
+#doc README
 %license LICENSE
 
 %changelog
