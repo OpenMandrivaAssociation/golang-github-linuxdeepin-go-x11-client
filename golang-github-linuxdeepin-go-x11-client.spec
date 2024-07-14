@@ -46,7 +46,7 @@ GOPATH=/usr/share/gocode make
 %gochecks
 %endif
 
-%files devel -f devel.file-list
+%files
 %doc README
 %license LICENSE
 
