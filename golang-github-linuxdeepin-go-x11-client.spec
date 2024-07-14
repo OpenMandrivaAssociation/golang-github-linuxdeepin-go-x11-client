@@ -4,7 +4,7 @@
 
 %global goipath github.com/linuxdeepin/go-x11-client
 
-%gometa
+#gometa
 
 Name:           golang-github-linuxdeepin-go-x11-client
 Version:        1
