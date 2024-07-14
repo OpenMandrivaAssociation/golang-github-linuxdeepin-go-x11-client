@@ -50,6 +50,7 @@ GOPATH=/usr/share/gocode make
 %files
 #doc README
 %license LICENSE
+%{_datadir}/gocode/src/github.com/linuxdeepin/go-x11-client/
 
 %changelog
 * Mon Nov 12 2018 mosquito <sensor.wen@gmail.com> - 0-0.8.20181112git8411934
