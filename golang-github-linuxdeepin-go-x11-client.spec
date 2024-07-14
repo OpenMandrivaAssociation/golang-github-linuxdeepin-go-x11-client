@@ -1,3 +1,4 @@
+%undefine _debugsource_packages
 # Run tests in check section
 # disable for bootstrapping
 %bcond_with check
