@@ -19,6 +19,7 @@ Source0:        https://github.com/linuxdeepin/go-x11-client/archive/refs/tags/%
 %package devel
 Summary:        %{summary}
 BuildArch:      noarch
+BuildRequires:  golang
 BuildRequires:  golang(gopkg.in/check.v1)
 BuildRequires:  golang(golang.org/x/text/encoding/charmap)
 BuildRequires:  golang(github.com/stretchr/testify/assert)
