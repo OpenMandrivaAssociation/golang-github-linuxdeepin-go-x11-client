@@ -31,7 +31,7 @@ building other packages which use import path with
 %{import_path} prefix.
 
 %prep
-%forgeautosetup
+%forgeautosetup -n go-x11-client-%{version}
 
 %install
 %goinstall
