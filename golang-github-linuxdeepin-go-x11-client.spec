@@ -3,18 +3,16 @@
 %bcond_with check
 
 %global goipath github.com/linuxdeepin/go-x11-client
-%global commit  841193439a13bbe881f0e50b5c5b513fbd603d7e
 
 %gometa
 
 Name:           golang-github-linuxdeepin-go-x11-client
-Version:        0
-Release:        0.8%{?dist}
+Version:        1
+Release:        1.0.2
 Summary:        A X11 client Go bindings for Deepin Desktop Environment
 License:        GPLv3
 URL:            %{gourl}
-Source0:        %{gosource}
-
+Source0:        https://github.com/linuxdeepin/go-x11-client/archive/refs/tags/%{version}/go-x11-client-%{version}.tar.gz
 %description
 %{summary}.
 
