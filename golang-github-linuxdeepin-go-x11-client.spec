@@ -39,7 +39,7 @@ export GOPATH=$(pwd)/.godeps:$(pwd)/gopath
 GOPATH=/usr/share/gocode make
 
 %install
-%goinstall
+%make_install
 
 %if %{with check}
 %check
