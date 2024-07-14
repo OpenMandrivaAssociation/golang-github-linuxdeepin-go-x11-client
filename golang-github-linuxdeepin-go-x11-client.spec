@@ -31,7 +31,12 @@ building other packages which use import path with
 %{import_path} prefix.
 
 %prep
-%forgeautosetup -n go-x11-client-%{version}
+%autosetup -p1 -n go-x11-client-%{version}
+
+export GOPATH=$(pwd)/.godeps:$(pwd)/gopath
+
+go generate
+go build
 
 %install
 %goinstall
