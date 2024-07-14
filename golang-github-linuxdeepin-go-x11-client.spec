@@ -36,8 +36,7 @@ building other packages which use import path with
 
 export GOPATH=$(pwd)/.godeps:$(pwd)/gopath
 
-go generate
-go build
+GOPATH=/usr/share/gocode make
 
 %install
 %goinstall
