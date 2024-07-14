@@ -7,8 +7,8 @@
 #gometa
 
 Name:           golang-github-linuxdeepin-go-x11-client
-Version:        1
-Release:        1.0.2
+Version:        1.0.2
+Release:        1
 Summary:        A X11 client Go bindings for Deepin Desktop Environment
 License:        GPLv3
 URL:            %{gourl}
