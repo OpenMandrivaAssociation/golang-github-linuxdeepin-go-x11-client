@@ -14,6 +14,8 @@ Summary:        A X11 client Go bindings for Deepin Desktop Environment
 License:        GPLv3
 URL:            %{gourl}
 Source0:        https://github.com/linuxdeepin/go-x11-client/archive/refs/tags/%{version}/go-x11-client-%{version}.tar.gz
+BuildRequires:	compiler(golang)
+
 %description
 %{summary}.
 
